@@ -1,0 +1,24 @@
+# 忽略index.css文件
+index.css
+
+# 忽略text目录下的所有文件
+text/
+
+# 忽略 nihao目录下的所有文件 无论是在任何目录下名为niihao的文件都会忽略
+niihao/
+
+# 忽略所有.a 文件
+*.a
+
+# 跟踪所有 lib.a，即使你在前面忽略了 .a 文件
+!lib.a
+
+# 只忽略当前目录下的 TODO文件，而不递归  就是不忽略 subdir/TODO
+/TODO
+
+# 忽略 doc/notes.txt,但不忽略 doc/server/arch.txt
+dov/*.txt
+
+
+# 忽略 doc/ 目录及其所有子目录下的 .pdf文件
+doc/**/*.pdf
